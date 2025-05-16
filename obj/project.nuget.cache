@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yriUMsjTUeM=",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkedInBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.support\\4.30.0\\selenium.support.4.30.0.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.webdriver\\4.30.0\\selenium.webdriver.4.30.0.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.webdriver.chromedriver\\135.0.7049.4200\\selenium.webdriver.chromedriver.135.0.7049.4200.nupkg.sha512"
+  ],
+  "logs": []
+}

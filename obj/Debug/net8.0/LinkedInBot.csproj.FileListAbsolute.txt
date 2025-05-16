@@ -1,0 +1,15 @@
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\LinkedInBot.deps.json
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\LinkedInBot.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\bin\Debug\net8.0\LinkedInBot.pdb
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.csproj.AssemblyReference.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.AssemblyInfoInputs.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.AssemblyInfo.cs
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.csproj.CoreCompileInputs.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\refint\LinkedInBot.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\LinkedInBot.pdb
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\obj\Debug\net8.0\ref\LinkedInBot.dll

@@ -1,0 +1,6 @@
+D:\Downloads\service\LinkBotLaunch.pdb
+D:\Downloads\service\selenium-manager\linux\selenium-manager
+D:\Downloads\service\selenium-manager\macos\selenium-manager
+D:\Downloads\service\selenium-manager\windows\selenium-manager.exe
+D:\Downloads\service\LinkBotLogic.pdb
+D:\Downloads\service\LinkBotLaunch.exe

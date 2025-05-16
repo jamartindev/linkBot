@@ -1,0 +1,15 @@
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\selenium-manager\linux\selenium-manager
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\selenium-manager\macos\selenium-manager
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\selenium-manager\windows\selenium-manager.exe
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\LinkBotLogic.deps.json
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\LinkBotLogic.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\bin\Release\net8.0\win-x64\LinkBotLogic.pdb
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.csproj.AssemblyReference.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.AssemblyInfoInputs.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.AssemblyInfo.cs
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.csproj.CoreCompileInputs.cache
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\refint\LinkBotLogic.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\LinkBotLogic.pdb
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Release\net8.0\win-x64\ref\LinkBotLogic.dll

@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "LinkBotLaunch": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "LINKEDIN_USER": "jamartindev@outlook.com",
+        "LINKEDIN_PASS": "4FFAKaKEk2hN#5DEHrwS",
+        "CONTACT_TARGET": "Tony Lopez",
+        "LINKEDIN_PROFILE": "C:\\Users\\jamar\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

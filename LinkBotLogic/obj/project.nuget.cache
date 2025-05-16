@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ekuxYvSSDeE=",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\LinkBotLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jamar\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\polly\\8.5.2\\polly.8.5.2.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\polly.core\\8.5.2\\polly.core.8.5.2.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.support\\4.31.0\\selenium.support.4.31.0.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.webdriver\\4.31.0\\selenium.webdriver.4.31.0.nupkg.sha512",
+    "C:\\Users\\jamar\\.nuget\\packages\\selenium.webdriver.chromedriver\\135.0.7049.4200\\selenium.webdriver.chromedriver.135.0.7049.4200.nupkg.sha512"
+  ],
+  "logs": []
+}
