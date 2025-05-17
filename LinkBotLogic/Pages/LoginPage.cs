@@ -25,62 +25,32 @@ namespace LinkBotLogic.Pages
 
         public void Login(string user, string pass)
         {
-            try
+            SendKeys(_userField, user);
+            SendKeys(_passField, pass);
+            IWebElement checkbox = Find(_checkBox);
+            if (checkbox.Selected)
             {
-                SendKeys(_userField, user);
-                SendKeys(_passField, pass);
-                IWebElement checkbox = Find(_checkBox);
-                if (checkbox.Selected)
-                {
-                    ((IJavaScriptExecutor)Driver).ExecuteScript("arguments[0].click();", checkbox);
-                }
-                Click(_submitBtn);
+                ((IJavaScriptExecutor)Driver).ExecuteScript("arguments[0].click();", checkbox);
             }
-            catch (WebDriverTimeoutException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Login2(user, pass);
-            }
-            catch (Exception ex)
-            {
-                throw new LoginException(ex.Message);
-            }
+            Click(_submitBtn);
         }
 
         public void Login2(string user, string pass)
         {
-            try
-            {
-                Task.Delay(1000);
-                SendKeys(_passField, pass);
-                Click(_signInBtn);
-            }
-            catch (WebDriverTimeoutException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Login(user, pass);
-            }
-            catch (Exception ex)
-            {
-                throw new LoginException($"Failed to login {ex.Message}");
-            }
+            Task.Delay(1000);
+            SendKeys(_passField, pass);
+            Click(_signInBtn);
         }
         public bool IsInteractable(By element)
         {
-            try
+            IWebElement el = Find(element);
+            if (el.Displayed && el.Enabled)
             {
-                IWebElement el = Find(element);
-                if (el.Displayed && el.Enabled)
-                {
-                    return true;
-                } else
-                {
-                    return false;
-                }
+                return true;
             }
-            catch (WebDriverTimeoutException ex)
+            else
             {
-                throw new LoginException($"Failed to login {ex.Message}");
+                return false;
             }
         }
     }

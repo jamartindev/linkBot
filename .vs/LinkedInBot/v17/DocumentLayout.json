@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|solutionrelative:linkbotlaunch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlaunch\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|solutionrelative:linkbotlaunch\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlaunch\\linkbotlaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|solutionrelative:linkbotlaunch\\linkbotlaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlaunch\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|solutionrelative:linkbotlaunch\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\services\\sessionmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\pages\\messagingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\pages\\messagingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\services\\retrypolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\services\\retrypolicies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlaunch\\linkbotlaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{BC42A84B-ACE9-4F8A-800F-3D8BE437636E}|LinkBotLaunch\\LinkBotLaunch.csproj|solutionrelative:linkbotlaunch\\linkbotlaunch.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\pages\\messagingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\pages\\messagingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|d:\\downloads\\2-estudio\\ort\\programacion\\reposgral\\linkedinbot\\linkbotlogic\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C46F1010-2B19-4B45-81DC-1B799E448AD8}|LinkBotLogic\\LinkBotLogic.csproj|solutionrelative:linkbotlogic\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,36 +50,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RetryPolicies.cs",
-              "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Services\\RetryPolicies.cs",
-              "RelativeDocumentMoniker": "LinkBotLogic\\Services\\RetryPolicies.cs",
-              "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Services\\RetryPolicies.cs",
-              "RelativeToolTip": "LinkBotLogic\\Services\\RetryPolicies.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T23:49:24.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "LinkBotLaunch",
               "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLaunch\\LinkBotLaunch.csproj",
               "RelativeDocumentMoniker": "LinkBotLaunch\\LinkBotLaunch.csproj",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLaunch\\LinkBotLaunch.csproj",
               "RelativeToolTip": "LinkBotLaunch\\LinkBotLaunch.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-04T08:25:33.682Z"
+              "WhenOpened": "2025-04-04T08:25:33.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "RetryPolicies.cs",
+              "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Services\\RetryPolicies.cs",
+              "RelativeDocumentMoniker": "LinkBotLogic\\Services\\RetryPolicies.cs",
+              "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Services\\RetryPolicies.cs",
+              "RelativeToolTip": "LinkBotLogic\\Services\\RetryPolicies.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T23:49:24.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Init.cs",
               "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLaunch\\Init.cs",
               "RelativeDocumentMoniker": "LinkBotLaunch\\Init.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLaunch\\Init.cs",
               "RelativeToolTip": "LinkBotLaunch\\Init.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T00:21:46.303Z",
               "EditorCaption": ""
@@ -92,7 +94,7 @@
               "RelativeDocumentMoniker": "LinkBotLogic\\Services\\SessionManagement.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Services\\SessionManagement.cs",
               "RelativeToolTip": "LinkBotLogic\\Services\\SessionManagement.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T19:48:07.284Z",
               "EditorCaption": ""
@@ -105,7 +107,7 @@
               "RelativeDocumentMoniker": "LinkBotLaunch\\Program.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLaunch\\Program.cs",
               "RelativeToolTip": "LinkBotLaunch\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwEEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T00:11:48.938Z",
               "EditorCaption": ""
@@ -118,33 +120,33 @@
               "RelativeDocumentMoniker": "LinkBotLogic\\Pages\\LoginPage.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Pages\\LoginPage.cs",
               "RelativeToolTip": "LinkBotLogic\\Pages\\LoginPage.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwDQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:10.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BasePage.cs",
               "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Pages\\BasePage.cs",
               "RelativeDocumentMoniker": "LinkBotLogic\\Pages\\BasePage.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Pages\\BasePage.cs",
               "RelativeToolTip": "LinkBotLogic\\Pages\\BasePage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:25:40.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MessagingPage.cs",
               "DocumentMoniker": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Pages\\MessagingPage.cs",
               "RelativeDocumentMoniker": "LinkBotLogic\\Pages\\MessagingPage.cs",
               "ToolTip": "D:\\Downloads\\2-Estudio\\ORT\\Programacion\\ReposGral\\LinkedInBot\\LinkBotLogic\\Pages\\MessagingPage.cs",
               "RelativeToolTip": "LinkBotLogic\\Pages\\MessagingPage.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwCgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:19.781Z",
               "EditorCaption": ""

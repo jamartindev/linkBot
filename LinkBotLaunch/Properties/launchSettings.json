@@ -3,10 +3,12 @@
     "LinkBotLaunch": {
       "commandName": "Project",
       "environmentVariables": {
-        "LINKEDIN_USER": "jamartindev@outlook.com",
-        "LINKEDIN_PASS": "4FFAKaKEk2hN#5DEHrwS",
-        "CONTACT_TARGET": "Tony Lopez",
-        "LINKEDIN_PROFILE": "C:\\Users\\jamar\\AppData\\Local\\Google\\Chrome\\User Data\\Default"
+        "LINKEDIN_USER": "c4b3.16@gmail.com",
+        "LINKEDIN_PASS": "2$4Mvc&nRAeWDq8B^ZT3",
+        "CONTACT_TARGET": "Juan Andrés Martínez Devita",
+        "LINKEDIN_PROFILE": "C:\\Users\\jamar\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+        "TIME_INTERVAL1": "10",
+        "TIME_INTERVAL2": "15"
       }
     },
     "Container (Dockerfile)": {

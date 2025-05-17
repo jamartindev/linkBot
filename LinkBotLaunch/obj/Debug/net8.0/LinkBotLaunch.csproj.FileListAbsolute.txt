@@ -26,3 +26,4 @@ D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLaunch\obj\
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLaunch\obj\Debug\net8.0\LinkBotLaunch.csproj.GenerateResource.cache
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLaunch\bin\Debug\net8.0\Polly.dll
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLaunch\bin\Debug\net8.0\Polly.Core.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLaunch\obj\Debug\net8.0\LinkBotLaunch.sourcelink.json

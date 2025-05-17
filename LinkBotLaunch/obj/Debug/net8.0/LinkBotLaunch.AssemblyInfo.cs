@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkBotLaunch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7701d531212791dc21a86f2fce0b2d74150933e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkBotLaunch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkBotLaunch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

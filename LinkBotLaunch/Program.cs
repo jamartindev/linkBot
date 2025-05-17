@@ -26,46 +26,40 @@ namespace LinkBotLaunch
             service.EnableVerboseLogging = true;
             service.LogPath = "chromedriver.log";
 
-            IWebDriver driver = new ChromeDriver(service, options);
-            var session = new SessionManagement(driver);
+            do
+            {
+                IWebDriver driver = new ChromeDriver(service, options);
+                var session = new SessionManagement(driver);
 
-            try
-            {
-                if (session.HasValidCookies)
+                try
                 {
-                    session.LoadCookies();
-                    driver.Navigate().Refresh();
-                    await Init.InitLogin2(driver);
-                    await Init.StartMessagingService(driver);
-                } else
-                {
-                    await Init.StartLogin(driver, session);
-                    await Init.StartMessagingService(driver);
+                    if (session.HasValidCookies)
+                    {
+                        session.LoadCookies();
+                        driver.Navigate().Refresh();
+                        await RetryPolicies.SeleniumAsyncRetryPolicy.ExecuteAsync(async () =>
+                        {
+                            await Init.InitLogin2(driver);
+                            await Init.StartMessagingService(driver);
+                        });
+                    }
+                    else
+                    {
+                        await RetryPolicies.SeleniumAsyncRetryPolicy.ExecuteAsync(async () =>
+                        {
+                            await Init.StartLogin(driver, session);
+                            await Init.StartMessagingService(driver);
+                        });
+                    }
                 }
-            }
-            //catch (LoginException ex)
-            //{
-            //    Console.WriteLine($"Login error: {ex.Message}");
-            //    await Init.StartLogin(driver, session);
-            //    await Init.StartMessagingService(driver);
-            //}
-            //catch (MessagePageException ex)
-            //{
-            //    Console.WriteLine($"Login error: {ex.Message}");
-            //}
-            //catch (CookieStorageException ex)
-            //{
-            //    Console.WriteLine($"Cookie error: {ex.Message}");
-            //    await Init.StartLogin(driver, session);
-            //    await Init.StartMessagingService(driver);
-            catch (Exception ex)
-            {
-                session.ResetSession();
-                driver.Navigate().Refresh();
-                await Init.StartLogin(driver, session);
-                await Init.StartMessagingService(driver);
-                Console.WriteLine($"ERROR: {ex}");
-            }
+                catch (Exception ex)
+                {
+                    session.ResetSession();
+                    driver.Quit();
+                    driver.Dispose();
+                    Console.WriteLine($"ERROR: {ex}");
+                } 
+            } while (true);
         }
     }
 }

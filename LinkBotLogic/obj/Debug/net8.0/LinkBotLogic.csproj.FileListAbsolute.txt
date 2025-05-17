@@ -13,3 +13,4 @@ D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\D
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Debug\net8.0\refint\LinkBotLogic.dll
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Debug\net8.0\LinkBotLogic.pdb
 D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Debug\net8.0\ref\LinkBotLogic.dll
+D:\Downloads\2-Estudio\ORT\Programacion\ReposGral\LinkedInBot\LinkBotLogic\obj\Debug\net8.0\LinkBotLogic.sourcelink.json

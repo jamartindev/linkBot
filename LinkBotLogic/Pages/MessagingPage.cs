@@ -30,80 +30,44 @@ namespace LinkBotLogic.Pages
 
         public void Open()
         {
-            try
-            {
-                Click(_overlayToggle);
-            }
-            catch (Exception ex)
-            {
-                throw new MessagePageException(ex.Message);
-            }
+            Click(_overlayToggle);
         }
         public async Task SendMessage(string targetText)
         {
-            try
-            {
-                InitSendMsg(targetText);
-                await SendMessageLogic(targetText);
-            }
-            catch (NoSuchElementException ex)
-            {
-                Console.WriteLine($"Failed to find element after retries: {ex.Message}");
-                throw;
-            }
-            catch (StaleElementReferenceException ex)
-            {
-                Console.WriteLine($"Element became stale after retries: {ex.Message}");
-                throw;
-            }
-            catch (ElementNotInteractableException ex)
-            {
-                Console.WriteLine($"Element not interactable after retries: {ex.Message}");
-                throw;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An unexpected error ocurred: {ex.Message}");
-                throw;
-            }
+            InitSendMsg(targetText);
+            await SendMessageLogic(targetText);
         }
 
         private async Task SendMessageLogic(string targetText)
         {
-            try
+
+            IWebElement msgContainer = Find(_msgContainer);
+
+            msgContainer.Click(); // Ensure the element is focused
+
+            //Validate if last message is from destinatary
+            bool valid = this.ValidateMessage(targetText);
+
+            if (valid)
             {
-                IWebElement msgContainer = Find(_msgContainer);
+                IWebElement btnSend = Find(_sendBtn);
 
-                msgContainer.Click(); // Ensure the element is focused
-
-                //Validate if last message is from destinatary
-                bool valid = this.ValidateMessage(targetText);
-
-                if (valid)
+                if (msgContainer.Text.Contains("👍"))
                 {
-                    IWebElement btnSend = Find(_sendBtn);
+                    btnSend.Click();
+                }
+                else
+                {
+                    IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+                    string script = "document.execCommand('insertText', false, arguments[1]);";
+                    js.ExecuteScript(script, msgContainer, "👍");
 
-                    if (msgContainer.Text.Contains("👍"))
+                    var timer = new PeriodicTimer(TimeSpan.FromSeconds(2));
+                    if (await timer.WaitForNextTickAsync())
                     {
                         btnSend.Click();
                     }
-                    else
-                    {
-                        IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
-                        string script = "document.execCommand('insertText', false, arguments[1]);";
-                        js.ExecuteScript(script, msgContainer, "👍");
-
-                        var timer = new PeriodicTimer(TimeSpan.FromSeconds(2));
-                        if (await timer.WaitForNextTickAsync())
-                        {
-                            btnSend.Click();
-                        }
-                    }
                 }
-            }
-            catch (Exception ex)
-            {
-                throw new MessagePageException(ex.Message);
             }
         }
 
@@ -127,21 +91,13 @@ namespace LinkBotLogic.Pages
 
         private bool ValidateMessage(string targetText)
         {
-            try
+            string? contactNameText = Find(_contactName).Text;
+            if (contactNameText.Contains(targetText))
             {
-                string? contactNameText = Find(_contactName).Text;
-                if (contactNameText.Contains(targetText))
-                {
-                    return true;
-                }
+                return true;
+            }
 
-                return false;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return false;
         }
     }
-
 }
