@@ -1,5 +1,4 @@
 ﻿using LinkBotLogic.Services;
-using LinkBotLogic.Exceptions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -22,12 +21,11 @@ namespace LinkBotLaunch
             options.AddArgument("--disable-dev-shm-usage");
             options.AddArgument("--profile-directory=Default");
 
-            var service = ChromeDriverService.CreateDefaultService();
-            service.EnableVerboseLogging = true;
-            service.LogPath = "chromedriver.log";
-
             do
             {
+                var service = ChromeDriverService.CreateDefaultService();
+                service.EnableVerboseLogging = true;
+                service.LogPath = "chromedriver.log";
                 IWebDriver driver = new ChromeDriver(service, options);
                 var session = new SessionManagement(driver);
 
@@ -54,9 +52,13 @@ namespace LinkBotLaunch
                 }
                 catch (Exception ex)
                 {
-                    session.ResetSession();
                     driver.Quit();
                     driver.Dispose();
+                    Thread.Sleep(10000);
+                    RetryPolicies.SeleniumRetryPolicy.Execute(() =>
+                    {
+                        SessionManagement.ResetSession();
+                    });
                     Console.WriteLine($"ERROR: {ex}");
                 } 
             } while (true);

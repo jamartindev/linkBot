@@ -13,7 +13,7 @@ namespace LinkBotLaunch
             string time1 = Environment.GetEnvironmentVariable("TIME_INTERVAL1");
             string time2 = Environment.GetEnvironmentVariable("TIME_INTERVAL2");
 
-            if (targetText != null)
+            if (!string.IsNullOrEmpty(targetText))
             {
                 var msgPage = new MessagingPage(driver, targetText);
                 Random rand = new Random();
@@ -27,6 +27,9 @@ namespace LinkBotLaunch
                     await Task.Delay(delayTime);
                     await msgPage.SendMessage(targetText);
                 }
+            } else
+            {
+                throw new MessagePageException("Unable to get contact name value");
             }
         }
         public static async Task InitLogin2(IWebDriver driver)

@@ -62,13 +62,10 @@ namespace LinkBotLogic.Services
             File.Exists("linkedin_cookies.json") &&
             File.GetLastWriteTime("linkedin_cookies.json") > DateTime.Now.AddDays(-7);
 
-        public void ResetSession()
+        public static void ResetSession()
         {
-            if (this.HasValidCookies)
-            {
-                File.Delete("linkedin_cookies.json");
-                File.Delete("chromedriver.log");
-            }
+            File.Delete("linkedin_cookies.json");
+            File.Delete("chromedriver.log");
         }
     }
 }
